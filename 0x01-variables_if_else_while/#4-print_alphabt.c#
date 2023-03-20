@@ -5,8 +5,9 @@
  */
 int main(void)
 {
+/**
 	char let = 'a';
-	while (let <= 'z')
+while (let <= 'z')
 {
 if (let != 'q' && let != 'e')
 {
@@ -14,5 +15,20 @@ if (let != 'q' && let != 'e')
 	let++;
 }
 putchar('\n');
-return( 0);
+}
+return (0);
+}
+*/
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+if (c != 'q' && c != 'e') {
+	putchar(c);
+if (c == 'z')
+{
+	putchar('\n');
+}
+        }
+}
+    return 0;
 }

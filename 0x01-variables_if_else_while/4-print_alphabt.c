@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
  *main- Entry point
@@ -13,6 +14,7 @@ if (let != 'q' && let != 'e')
 	putchar(let);
 	let++;
 }
+if (let == 'z')
 putchar('\n');
 }
 return (0);

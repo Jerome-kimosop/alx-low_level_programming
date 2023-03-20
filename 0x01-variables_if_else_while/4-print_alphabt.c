@@ -14,6 +14,6 @@ if (let != 'q' && let != 'e')
 	let++;
 }
 putchar('\n');
-return (0);
 }
+return (0);
 }

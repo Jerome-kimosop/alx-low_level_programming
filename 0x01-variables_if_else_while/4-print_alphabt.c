@@ -12,10 +12,9 @@ while (let <= 'z')
 if (let != 'q' && let != 'e')
 {
 	putchar(let);
-	let++;
 }
-if (let == 'z')
+let++;
+}
 putchar('\n');
-}
 return (0);
 }

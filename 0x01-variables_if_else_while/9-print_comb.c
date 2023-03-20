@@ -14,10 +14,6 @@ for (i = 0; i < 10; i++)
 		putchar(',');
 		putchar(' ');
 		putchar(j + '0');
-		if (j < 9)
-		{
-			putchar(' ');
-		}
 	}
 }
 putchar('\n');

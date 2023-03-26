@@ -1,11 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 /**
- *main- prints the largest prime factor
- *followed by a new line
+ *main- prints the largest prime factor followed by a new line
  *Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	long long n = 612852475143;

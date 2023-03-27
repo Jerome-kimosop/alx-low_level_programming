@@ -6,7 +6,7 @@
  *@n: number of times the character - should be printed
  */
 
-void print_line(int n)
+void print_line(void)
 {
 
 	if (n <= 0)

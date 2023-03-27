@@ -1,22 +1,19 @@
 #include "main.h"
 /**
+ *main- Entry point
  *print_alphabet- Prints alphabets in lower case
  *Return: Always 0
  */
-int main(void)
+void print_alphabet(void)
 {
-/* prints alphabets in lower case*/
-	void print_alphabet(void)
+	/* prints alphabets in lower case*/
+	int c = 97;
+
+	while (c <= 122)
 	{
-		int c = 97;
-
-		while (c <= 122)
-		{
-			_putchar(c);
-			c++;
-		}
-
-		_putchar('\n');
+		_putchar(c);
+		c++;
 	}
-	return (0);
+
+	_putchar('\n');
 }

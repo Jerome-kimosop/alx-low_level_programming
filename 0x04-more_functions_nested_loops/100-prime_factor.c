@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	long long n = 612852475143;
-	long long largest_prime_factor = 2;
+	long int n = 612852475143;
+	long int largest_prime_factor = 2;
 
 	while (n > largest_prime_factor)
 	{
@@ -24,7 +24,7 @@ int main(void)
 		}
 	}
 
-	printf("%lld\n", largest_prime_factor);
+	printf("%ld\n", largest_prime_factor);
 
 	return (0);
 }
